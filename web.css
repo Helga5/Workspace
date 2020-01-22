@@ -1,0 +1,276 @@
+body {
+    font-family: Arial, Verdana, sans-serif;
+    /* Семейство шрифтов */
+    font-size: 11pt;
+    /* Размер основного шрифта в пунктах  */
+    background-color: cornsilk;
+    /* Цвет фона веб-страницы */
+    color: #333;
+    /* Цвет основного текста */
+}
+
+h1 {
+    color: #a52a2a;
+    /* Цвет заголовка */
+    font-size: 24pt;
+    /* Размер шрифта в пунктах */
+    font-family: Georgia, Times, serif;
+    /* Семейство шрифтов */
+    font-weight: normal;
+    /* Нормальное начертание текста  */
+}
+
+p {
+    text-align: justify;
+    /* Выравнивание по ширине */
+    margin-left: 60px;
+    /* Отступ слева в пикселах */
+    margin-right: 10px;
+    /* Отступ справа в пикселах */
+    border-left: 1px solid #999;
+    /* Параметры линии слева */
+    border-bottom: 1px solid #999;
+    /* Параметры линии снизу */
+    padding-left: 10px;
+    /* Отступ от линии слева до текста  */
+    padding-bottom: 10px;
+    /* Отступ от линии снизу до текста  */
+}
+
+body {
+    background: #D3D3D3;
+}
+
+div {
+    //  float: left;
+}
+
+
+
+
+.left {
+    position: relative;
+    border-radius: 4px;
+    width: 70%;
+    max-width: 675px;
+
+    height: 148px;
+    
+    left: 13%;
+    /* Отступы вокруг элемента */
+    top: 90px;
+    background: #FFFFFF;
+    box-sizing: border-box;
+
+}
+
+.right {
+    position: absolute;
+    width: 40%;
+    max-width: 300px;
+    height: 150px;
+    background: #FFFFFF;
+    right: -50%;
+
+
+    box-sizing: border-box;
+}
+
+.add {
+    border: 1px dotted lightblue;
+    border-radius: 4px;
+    border-bottom-color: RoyalBlue;
+    border-bottom-width: 2px;
+    border-bottom-style: groove;
+    border-right-color: RoyalBlue;
+    border-right-width: 2px;
+    border-right-style: groove;
+    height: 37px;
+    width: 95px;
+    background: SteelBlue;
+    font-size: 15px;
+    text-align: match-parent;
+    color: white;
+    margin-right: 15px;
+
+
+}
+
+.row {
+
+    border-style: solid;
+    border-width: 0.1px;
+    border-right: none;
+    border-left: none;
+    border-bottom-color: lightgrey;
+    text-align: justify;
+
+    width: 100%;
+    min-width: 370px;
+    max-width: 675px;
+
+    height: 37px;
+
+
+    background: #FFFFFF;
+    float: right;
+}
+
+.buttons {
+    margin-right: 90px;
+     margin-top: -2%;
+
+}
+
+.manageButtons {
+    margin-top: -5%; 
+    
+}
+
+
+.less {
+
+    height: 27px;
+    width: 27px;
+    border-width: 1px;
+    border-color: #FF0000;
+    border-radius: 50%;
+    background: #FF0000;
+    padding: 1px;
+    font-size: 24px;
+    align-content: center;
+    color: white;
+    margin-left: 50%;
+    cursor: pointer;
+
+}
+
+.more {
+    height: 27px;
+    width: 27px;
+    border-width: 1px;
+    border-color: darkgreen;
+    border-radius: 50%;
+    padding: 1px;
+    font-size: 24px;
+    align-content: center;
+    color: white;
+    background: #228B22;
+
+    cursor: pointer;
+
+}
+
+.counter {
+    border: 1px dotted lightgrey;
+/*
+    height: 13px;
+    width: 13px;
+*/
+    background: #DCDCDC;
+    border-radius: 20%;
+    text-align: center;
+    color: black;
+   
+    padding: 8px;
+    margin-left: 
+ 
+}
+
+
+
+.bought {
+    border: 1px dotted lightgrey;
+    border-radius: 4px;
+    border-bottom-color: lightgrey;
+    border-bottom-width: 2px;
+    border-bottom-style: groove;
+    border-right-color: lightgrey;
+    border-right-width: 2px;
+    border-right-style: groove;
+    height: 30px;
+    width: 70px;
+    background: #DCDCDC;
+    font-size: 11px;
+    font-family: Helvetica;
+    font-weight: 400;
+    text-align: match-parent;
+    color: black;
+    margin-left: 80%;
+ cursor: pointer;
+}
+
+
+.delete {
+    height: 27px;
+    width: 27px;
+    border-width: 1px;
+    border-color: #FF0000;
+    border-radius: 4px;
+    background: #B22222;
+    padding: 1px;
+    font-size: 24px;
+    align-content: center;
+    color: white;
+    margin-top: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
+     cursor: pointer;
+}
+
+
+
+
+.productsLeft {
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    text-align: left;
+    color: black;
+    }
+
+.header {
+    border: 1px solid lightgrey;
+    /* Параметры границы */
+    border-radius: 4px;
+    text-align: left;
+    color: black;
+    
+}
+
+.title {
+    border: 1px solid lightgrey;
+    /* Параметры границы */
+    border-radius: 4px;
+    text-align: left;
+    color: black;
+   
+
+    background: #DCDCDC;
+    /* Поля вокруг текста */
+    margin-right: 1px;
+    margin-left: 5px;
+
+}
+
+.leftCounter {
+    border: 1px solid DarkOrange;
+    border-radius: 100%;
+    text-align: center;
+    height: 15px;
+    width: 15px;
+    color: white;
+    padding: 1x;
+    font-size: 15px;
+    background: DarkOrange;
+    
+}
+
+.productsBought {
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    text-align: left;
+    color: black;
+}
+
+
+}
